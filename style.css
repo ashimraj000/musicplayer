@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&family=Sono:wght@500&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.container {
+    min-height: 48vh;
+    background-color: black;
+    color: white;
+    font-family: 'Sono', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('dark.jpg');
+}
+
+.songitem{
+    height: 20px;
+    display: flex;
+    margin: 8px 0px;
+    justify-content: space-between;
+    align-content: center;
+    background-color: whitesmoke;
+    color: black;
+    padding: 2px 0;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.songitem i{
+    cursor: pointer;   
+}
+
+.timestamp{
+    margin: 23px 34px;
+}
+
+.brand img {
+    width: 74px;
+    height: 56px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 0;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
